@@ -17,7 +17,7 @@
     
     <meta name="viewport" content="width=device-width,
         initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>#map_a89fd2762dbe474ba24784fcc708a401 {
+    <style>#map_2111cfe3b1aa41c4a5695e31a8c97085 {
         position: relative;
         width: 100.0%;
         height: 100.0%;
@@ -28,7 +28,7 @@
 </head>
 <body>    
     
-    <div class="folium-map" id="map_a89fd2762dbe474ba24784fcc708a401" ></div>
+    <div class="folium-map" id="map_2111cfe3b1aa41c4a5695e31a8c97085" ></div>
 </body>
 <script>    
     
@@ -36,8 +36,8 @@
         var bounds = null;
     
 
-    var map_a89fd2762dbe474ba24784fcc708a401 = L.map(
-        'map_a89fd2762dbe474ba24784fcc708a401', {
+    var map_2111cfe3b1aa41c4a5695e31a8c97085 = L.map(
+        'map_2111cfe3b1aa41c4a5695e31a8c97085', {
         center: [38.540205, -0.14056],
         zoom: 14,
         maxBounds: bounds,
@@ -49,7 +49,7 @@
 
     
     
-    var tile_layer_e1338c8e9a2346bda39211e4055a0221 = L.tileLayer(
+    var tile_layer_91580f5b330e422bbbbd86514dc58814 = L.tileLayer(
         'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {
         "attribution": null,
@@ -61,152 +61,371 @@
         "opacity": 1,
         "subdomains": "abc",
         "tms": false
-}).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+}).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
     
-        var marker_7a169dafd177427580b162addee636d5 = L.marker(
+        var marker_90614d67ef174ea1be24e481b113af2c = L.marker(
             [38.534019, -0.118618],
             {
                 icon: new L.Icon.Default()
                 }
-            ).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
         
     
-            var popup_f6495a099e71455f9ee53a8a2ca38edb = L.popup({maxWidth: '300'
+
+                var icon_414ffaf494fb477793ff0b8a4bbeba4f = L.AwesomeMarkers.icon({
+                    icon: 'leaf',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90614d67ef174ea1be24e481b113af2c.setIcon(icon_414ffaf494fb477793ff0b8a4bbeba4f);
+            
+    
+            var popup_30941a9275b047609a9bf9f9074e58d2 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_102f85ade24d46d3be0b6e5ba238c6d7 = $(`<div id="html_102f85ade24d46d3be0b6e5ba238c6d7" style="width: 100.0%; height: 100.0%;"><strong>Llevant's Beach</strong></div>`)[0];
-                popup_f6495a099e71455f9ee53a8a2ca38edb.setContent(html_102f85ade24d46d3be0b6e5ba238c6d7);
+                var html_7c3edc0862344169b2b8c685630ab972 = $(`<div id="html_7c3edc0862344169b2b8c685630ab972" style="width: 100.0%; height: 100.0%;"><strong>Llevant's Beach</strong></div>`)[0];
+                popup_30941a9275b047609a9bf9f9074e58d2.setContent(html_7c3edc0862344169b2b8c685630ab972);
             
 
-            marker_7a169dafd177427580b162addee636d5.bindPopup(popup_f6495a099e71455f9ee53a8a2ca38edb)
+            marker_90614d67ef174ea1be24e481b113af2c.bindPopup(popup_30941a9275b047609a9bf9f9074e58d2)
             ;
 
             
         
     
-        marker_7a169dafd177427580b162addee636d5.bindTooltip(
+        marker_90614d67ef174ea1be24e481b113af2c.bindTooltip(
             `<div>`
             + `Click here for more info` + `</div>`,
             {"sticky": true}
         );
         
     
-        var marker_aee9f153c834427aa5f16dbc005a4c0a = L.marker(
+        var marker_d9d9d07763574d7681c7100dfb1caa01 = L.marker(
             [38.53584, -0.144041],
             {
                 icon: new L.Icon.Default()
                 }
-            ).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
         
     
-            var popup_38c5ad02ac5a4f5498481dab452bbc63 = L.popup({maxWidth: '300'
+
+                var icon_342edc487d5642219fcf43cd037dc166 = L.AwesomeMarkers.icon({
+                    icon: 'leaf',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d9d9d07763574d7681c7100dfb1caa01.setIcon(icon_342edc487d5642219fcf43cd037dc166);
+            
+    
+            var popup_da7fa6cfbd644901b9f1b0139dc63198 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_ededf7ebb384444db636b3d5c2b2e745 = $(`<div id="html_ededf7ebb384444db636b3d5c2b2e745" style="width: 100.0%; height: 100.0%;"><strong>Ponent's Beach</strong></div>`)[0];
-                popup_38c5ad02ac5a4f5498481dab452bbc63.setContent(html_ededf7ebb384444db636b3d5c2b2e745);
+                var html_64caa33e5cb14855bd9b43be6c050b0c = $(`<div id="html_64caa33e5cb14855bd9b43be6c050b0c" style="width: 100.0%; height: 100.0%;"><strong>Ponent's Beach</strong></div>`)[0];
+                popup_da7fa6cfbd644901b9f1b0139dc63198.setContent(html_64caa33e5cb14855bd9b43be6c050b0c);
             
 
-            marker_aee9f153c834427aa5f16dbc005a4c0a.bindPopup(popup_38c5ad02ac5a4f5498481dab452bbc63)
+            marker_d9d9d07763574d7681c7100dfb1caa01.bindPopup(popup_da7fa6cfbd644901b9f1b0139dc63198)
             ;
 
             
         
     
-        marker_aee9f153c834427aa5f16dbc005a4c0a.bindTooltip(
+        marker_d9d9d07763574d7681c7100dfb1caa01.bindTooltip(
             `<div>`
             + `Click here for more info` + `</div>`,
             {"sticky": true}
         );
         
     
-        var marker_6255c3226c6a4e9faeec06cfd4b3268f = L.marker(
+        var marker_bcf968369d4b4a60ac028855136e091d = L.marker(
             [38.534314, -0.131248],
             {
                 icon: new L.Icon.Default()
                 }
-            ).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
         
     
-            var popup_e1b77e7949e34249bae7946a5751d0b8 = L.popup({maxWidth: '300'
+
+                var icon_26465b7f8ef64f008eabbdd801139508 = L.AwesomeMarkers.icon({
+                    icon: 'leaf',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bcf968369d4b4a60ac028855136e091d.setIcon(icon_26465b7f8ef64f008eabbdd801139508);
+            
+    
+            var popup_4fe75f644e78401488ec3816fc378074 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_30b28228ad6842dfbb7cdf61b1146b4e = $(`<div id="html_30b28228ad6842dfbb7cdf61b1146b4e" style="width: 100.0%; height: 100.0%;"><strong>Old Benidorm City</strong></div>`)[0];
-                popup_e1b77e7949e34249bae7946a5751d0b8.setContent(html_30b28228ad6842dfbb7cdf61b1146b4e);
+                var html_2d224e8990f747b7a8f6c2c1cc47bd93 = $(`<div id="html_2d224e8990f747b7a8f6c2c1cc47bd93" style="width: 100.0%; height: 100.0%;"><strong>Old Benidorm City</strong></div>`)[0];
+                popup_4fe75f644e78401488ec3816fc378074.setContent(html_2d224e8990f747b7a8f6c2c1cc47bd93);
             
 
-            marker_6255c3226c6a4e9faeec06cfd4b3268f.bindPopup(popup_e1b77e7949e34249bae7946a5751d0b8)
+            marker_bcf968369d4b4a60ac028855136e091d.bindPopup(popup_4fe75f644e78401488ec3816fc378074)
             ;
 
             
         
     
-        marker_6255c3226c6a4e9faeec06cfd4b3268f.bindTooltip(
+        marker_bcf968369d4b4a60ac028855136e091d.bindTooltip(
             `<div>`
             + `Click here for more info` + `</div>`,
             {"sticky": true}
         );
         
     
-        var marker_998b6f6c5653476fa632e81e9119bafb = L.marker(
+        var marker_bbfcdbefa2ec4175ac603cf5e2655239 = L.marker(
             [38.542508, -0.130322],
             {
                 icon: new L.Icon.Default()
                 }
-            ).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
         
     
-            var popup_2cec950939ae4135955678f087694351 = L.popup({maxWidth: '300'
+
+                var icon_f68ff58e29c1478796cca5c6b6033e31 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bbfcdbefa2ec4175ac603cf5e2655239.setIcon(icon_f68ff58e29c1478796cca5c6b6033e31);
+            
+    
+            var popup_d0430f8134274564923991adadf98b84 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_0ad7e407f37441e7b5f14710348cb3d6 = $(`<div id="html_0ad7e407f37441e7b5f14710348cb3d6" style="width: 100.0%; height: 100.0%;"><strong>L'Aigüera Park</strong></div>`)[0];
-                popup_2cec950939ae4135955678f087694351.setContent(html_0ad7e407f37441e7b5f14710348cb3d6);
+                var html_5327cd787ee44421a0a333ec070cfb4c = $(`<div id="html_5327cd787ee44421a0a333ec070cfb4c" style="width: 100.0%; height: 100.0%;"><strong>L'Aigüera Park</strong></div>`)[0];
+                popup_d0430f8134274564923991adadf98b84.setContent(html_5327cd787ee44421a0a333ec070cfb4c);
             
 
-            marker_998b6f6c5653476fa632e81e9119bafb.bindPopup(popup_2cec950939ae4135955678f087694351)
+            marker_bbfcdbefa2ec4175ac603cf5e2655239.bindPopup(popup_d0430f8134274564923991adadf98b84)
             ;
 
             
         
     
-        marker_998b6f6c5653476fa632e81e9119bafb.bindTooltip(
+        marker_bbfcdbefa2ec4175ac603cf5e2655239.bindTooltip(
             `<div>`
             + `Click here for more info` + `</div>`,
             {"sticky": true}
         );
         
     
-        var marker_543063726a3e496e91b1cac84574a960 = L.marker(
+        var marker_5582d60624bd472e8a0d643b5a461440 = L.marker(
             [38.5401882, -0.0940192],
             {
                 icon: new L.Icon.Default()
                 }
-            ).addTo(map_a89fd2762dbe474ba24784fcc708a401);
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
         
     
-            var popup_174a2290ec90491fb31d2d801db1a150 = L.popup({maxWidth: '300'
+
+                var icon_62166539844e4c43a601612c4a0529f1 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5582d60624bd472e8a0d643b5a461440.setIcon(icon_62166539844e4c43a601612c4a0529f1);
+            
+    
+            var popup_ecf5ad42a1d94bfcb3347d7e12138c75 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_a7c828c9555946799317deba3d3daabc = $(`<div id="html_a7c828c9555946799317deba3d3daabc" style="width: 100.0%; height: 100.0%;"><strong>Aqualandia / Mundomar</strong></div>`)[0];
-                popup_174a2290ec90491fb31d2d801db1a150.setContent(html_a7c828c9555946799317deba3d3daabc);
+                var html_2e71b407aed34bda8d9e66542350b1fd = $(`<div id="html_2e71b407aed34bda8d9e66542350b1fd" style="width: 100.0%; height: 100.0%;"><strong>Aqualandia / Mundomar</strong></div>`)[0];
+                popup_ecf5ad42a1d94bfcb3347d7e12138c75.setContent(html_2e71b407aed34bda8d9e66542350b1fd);
             
 
-            marker_543063726a3e496e91b1cac84574a960.bindPopup(popup_174a2290ec90491fb31d2d801db1a150)
+            marker_5582d60624bd472e8a0d643b5a461440.bindPopup(popup_ecf5ad42a1d94bfcb3347d7e12138c75)
             ;
 
             
         
     
-        marker_543063726a3e496e91b1cac84574a960.bindTooltip(
+        marker_5582d60624bd472e8a0d643b5a461440.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f49172e0792c4d85a0ea1babf4493c73 = L.marker(
+            [38.560471, -0.161876],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
+        
+    
+
+                var icon_4cf6d9e7851c48a59c96e353dab7a5b4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f49172e0792c4d85a0ea1babf4493c73.setIcon(icon_4cf6d9e7851c48a59c96e353dab7a5b4);
+            
+    
+            var popup_d6062613caef4b40b4c067e6df8e2c4a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_51174826283e454390abb3c70342d590 = $(`<div id="html_51174826283e454390abb3c70342d590" style="width: 100.0%; height: 100.0%;"><strong>Terra Mítica Park</strong></div>`)[0];
+                popup_d6062613caef4b40b4c067e6df8e2c4a.setContent(html_51174826283e454390abb3c70342d590);
+            
+
+            marker_f49172e0792c4d85a0ea1babf4493c73.bindPopup(popup_d6062613caef4b40b4c067e6df8e2c4a)
+            ;
+
+            
+        
+    
+        marker_f49172e0792c4d85a0ea1babf4493c73.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cd5ca021146c405ab4a156d5bcd85a87 = L.marker(
+            [38.568873, -0.141899],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
+        
+    
+
+                var icon_bd7767a947c545728d87fb3e95e224f0 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd5ca021146c405ab4a156d5bcd85a87.setIcon(icon_bd7767a947c545728d87fb3e95e224f0);
+            
+    
+            var popup_8bc2aa5b539e4712bf674958cd1de5ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3fe3e876aefe4fb79725d43aadb57467 = $(`<div id="html_3fe3e876aefe4fb79725d43aadb57467" style="width: 100.0%; height: 100.0%;"><strong>Terra Natura</strong></div>`)[0];
+                popup_8bc2aa5b539e4712bf674958cd1de5ac.setContent(html_3fe3e876aefe4fb79725d43aadb57467);
+            
+
+            marker_cd5ca021146c405ab4a156d5bcd85a87.bindPopup(popup_8bc2aa5b539e4712bf674958cd1de5ac)
+            ;
+
+            
+        
+    
+        marker_cd5ca021146c405ab4a156d5bcd85a87.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_932f9c89a78344a98b81fce3c3c3792c = L.marker(
+            [38.54454, -0.102411],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
+        
+    
+
+                var icon_a1dba8a36a0c448da8e18466bea9acd5 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_932f9c89a78344a98b81fce3c3c3792c.setIcon(icon_a1dba8a36a0c448da8e18466bea9acd5);
+            
+    
+            var popup_17e9d78e753e467485c516980d099c3b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a41d568427e64df8932cc70de18069f8 = $(`<div id="html_a41d568427e64df8932cc70de18069f8" style="width: 100.0%; height: 100.0%;"><strong>Benidorm Palace</strong></div>`)[0];
+                popup_17e9d78e753e467485c516980d099c3b.setContent(html_a41d568427e64df8932cc70de18069f8);
+            
+
+            marker_932f9c89a78344a98b81fce3c3c3792c.bindPopup(popup_17e9d78e753e467485c516980d099c3b)
+            ;
+
+            
+        
+    
+        marker_932f9c89a78344a98b81fce3c3c3792c.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3aba873952f640db9f427db3e1d8f9fa = L.marker(
+            [38.547145, -0.13788],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2111cfe3b1aa41c4a5695e31a8c97085);
+        
+    
+
+                var icon_728bd4b00e1045eb9d62c09762986191 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3aba873952f640db9f427db3e1d8f9fa.setIcon(icon_728bd4b00e1045eb9d62c09762986191);
+            
+    
+            var popup_f52a9f6f69ad4457b3dd91cdb4384732 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db62f28d44f444689fe351ee2537c01d = $(`<div id="html_db62f28d44f444689fe351ee2537c01d" style="width: 100.0%; height: 100.0%;"><strong>Benidorm Stadium</strong></div>`)[0];
+                popup_f52a9f6f69ad4457b3dd91cdb4384732.setContent(html_db62f28d44f444689fe351ee2537c01d);
+            
+
+            marker_3aba873952f640db9f427db3e1d8f9fa.bindPopup(popup_f52a9f6f69ad4457b3dd91cdb4384732)
+            ;
+
+            
+        
+    
+        marker_3aba873952f640db9f427db3e1d8f9fa.bindTooltip(
             `<div>`
             + `Click here for more info` + `</div>`,
             {"sticky": true}
