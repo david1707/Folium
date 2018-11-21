@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_2ae527fbe7a74e7ba6c1b55594e53d30 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2ae527fbe7a74e7ba6c1b55594e53d30" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2ae527fbe7a74e7ba6c1b55594e53d30 = L.map(
+        'map_2ae527fbe7a74e7ba6c1b55594e53d30', {
+        center: [38.540205, -0.14056],
+        zoom: 14,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_57756ddf34ec41b7b889b348982c1755 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+    
+        var marker_dd0094ad6cd646b9bfb57a27475d25be = L.marker(
+            [38.534019, -0.118618],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+        
+    
+            var popup_c4eb7e48d791499788e99296bc3c9689 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eb715385e1e844f9af60d1591b41e241 = $(`<div id="html_eb715385e1e844f9af60d1591b41e241" style="width: 100.0%; height: 100.0%;"><strong>Llevant's Beach</strong></div>`)[0];
+                popup_c4eb7e48d791499788e99296bc3c9689.setContent(html_eb715385e1e844f9af60d1591b41e241);
+            
+
+            marker_dd0094ad6cd646b9bfb57a27475d25be.bindPopup(popup_c4eb7e48d791499788e99296bc3c9689)
+            ;
+
+            
+        
+    
+        marker_dd0094ad6cd646b9bfb57a27475d25be.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c08dff53e4d648a9a4ebf8633c872460 = L.marker(
+            [38.53584, -0.144041],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+        
+    
+            var popup_99b62087374440cb949ec9c640cfc77b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e8588afb4ba7433ebee33dc3fa1f8ce8 = $(`<div id="html_e8588afb4ba7433ebee33dc3fa1f8ce8" style="width: 100.0%; height: 100.0%;"><strong>Ponent's Beach</strong></div>`)[0];
+                popup_99b62087374440cb949ec9c640cfc77b.setContent(html_e8588afb4ba7433ebee33dc3fa1f8ce8);
+            
+
+            marker_c08dff53e4d648a9a4ebf8633c872460.bindPopup(popup_99b62087374440cb949ec9c640cfc77b)
+            ;
+
+            
+        
+    
+        marker_c08dff53e4d648a9a4ebf8633c872460.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bf64bdef8d4a4e919a48b710061d25a3 = L.marker(
+            [38.534314, -0.131248],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+        
+    
+            var popup_e3991128bbc44ecb9321eb95100616df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b40c2153af043148fcaf2e96b8d07a9 = $(`<div id="html_6b40c2153af043148fcaf2e96b8d07a9" style="width: 100.0%; height: 100.0%;"><strong>Old Benidorm City</strong></div>`)[0];
+                popup_e3991128bbc44ecb9321eb95100616df.setContent(html_6b40c2153af043148fcaf2e96b8d07a9);
+            
+
+            marker_bf64bdef8d4a4e919a48b710061d25a3.bindPopup(popup_e3991128bbc44ecb9321eb95100616df)
+            ;
+
+            
+        
+    
+        marker_bf64bdef8d4a4e919a48b710061d25a3.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_854440b6c00a41288b2504505594e0c2 = L.marker(
+            [38.542508, -0.130322],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+        
+    
+            var popup_a397c3cf800e43f89078848e0b4745de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_68a94c5cfe714a21a552df85e399213d = $(`<div id="html_68a94c5cfe714a21a552df85e399213d" style="width: 100.0%; height: 100.0%;"><strong>L'Aigüera Park</strong></div>`)[0];
+                popup_a397c3cf800e43f89078848e0b4745de.setContent(html_68a94c5cfe714a21a552df85e399213d);
+            
+
+            marker_854440b6c00a41288b2504505594e0c2.bindPopup(popup_a397c3cf800e43f89078848e0b4745de)
+            ;
+
+            
+        
+    
+        marker_854440b6c00a41288b2504505594e0c2.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c841d1b708e34cb08591f0f347411a54 = L.marker(
+            [38.5401882, -0.0940192],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_2ae527fbe7a74e7ba6c1b55594e53d30);
+        
+    
+            var popup_56b81659455944ec8d412b7de5911228 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f64aa2319fa4a31acd099a4bf1d9872 = $(`<div id="html_3f64aa2319fa4a31acd099a4bf1d9872" style="width: 100.0%; height: 100.0%;"><strong>Aqualandia / Mundomar</strong></div>`)[0];
+                popup_56b81659455944ec8d412b7de5911228.setContent(html_3f64aa2319fa4a31acd099a4bf1d9872);
+            
+
+            marker_c841d1b708e34cb08591f0f347411a54.bindPopup(popup_56b81659455944ec8d412b7de5911228)
+            ;
+
+            
+        
+    
+        marker_c841d1b708e34cb08591f0f347411a54.bindTooltip(
+            `<div>`
+            + `Click here for more info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
